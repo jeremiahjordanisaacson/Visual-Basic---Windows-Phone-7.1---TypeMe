@@ -1,0 +1,36 @@
+/////////////////////////////////////////////////////////////////////////////////////////////
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// About TypeMe for Windows Phone 7
+
+TypeMe was created for young children that are just starting to learn their words. 
+Currently it has a small list of words but I plan to expand the list of words if individuals find 
+it useful for their children.
+
+Note: Make sure the words are typed in capital letters.
+
+// Language
+
+Source Code: Microsoft Visual Studio 2010 - Visual Basic - Windows Phone 7.1
+
+// Demo
+
+Live Version Available Now in Windows Phone Marketplace (free): http://www.windowsphone.com/en-US/apps/ac57bca5-ac21-4d7c-ac84-87e09f6e2046
+
+// Misc.
+
+Date: 12/12/2011
+Author: Jeremiah Isaacson

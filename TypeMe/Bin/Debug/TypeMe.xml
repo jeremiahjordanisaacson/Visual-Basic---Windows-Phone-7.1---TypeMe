@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TypeMe
+</name>
+</assembly>
+<members>
+<member name="M:TypeMe.instructions.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TypeMe.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TypeMe.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:TypeMe.App.RootFrame">
+	<summary>
+ Provides easy access to the root frame of the Phone Application.
+ </summary>
+	<returns>The root frame of the Phone Application.</returns>
+</member><member name="M:TypeMe.App.#ctor">
+	<summary>
+ Constructor for the Application object.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="TypeMe.instructions"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" xmlns:my="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="TypeMe" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF4E4E4E" />
+            <TextBlock x:Name="PageTitle" Text="Instructions" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Foreground="#FF4E4E4E" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Height="595" HorizontalAlignment="Left" Margin="12,6,0,0" Name="TextBlock1" Text="TypeMe Rules:" VerticalAlignment="Top" Width="438" Foreground="#FF4E4E4E" />
+            <TextBlock Height="556" HorizontalAlignment="Left" Margin="12,45,0,0" Name="TextBlock2" Text="1. Make sure that when you are typing the words" VerticalAlignment="Top" Width="438" Foreground="#FF4E4E4E" />
+            <TextBlock Height="511" HorizontalAlignment="Left" Margin="31,75,0,0" Name="TextBlock3" Text="that they are in uppercase." VerticalAlignment="Top" Width="403" Foreground="#FF4E4E4E" />
+            <TextBlock Height="556" HorizontalAlignment="Left" Margin="12,109,0,0" Name="TextBlock4" Text="2. Have fun learning how to spell words." VerticalAlignment="Top" Width="438" Foreground="#FF4E4E4E" />
+            <Button Content="Go Back" Height="132" Name="btnInstructions" Width="453" Margin="3,150,0,325" BorderBrush="#FF797979" Foreground="#FF4E4E4E" />
+        </Grid>
+        <my:AdControl AdUnitId="10026956" ApplicationId="f7120b8a-14e2-4887-808a-51a0c7bc8531" Height="80" HorizontalAlignment="Left" Margin="0,527,0,0" Name="AdControl1" VerticalAlignment="Top" Width="480" Grid.Row="1" />
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF87FF00" Offset="0" />
+                <GradientStop Color="#FF7EFF00" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
